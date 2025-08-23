@@ -1,0 +1,83 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #0e0d0b;
+  background-color: #666a553e;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #0c0a0a;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background-color: hsl(158, 70%, 31%);
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .skills-list {
+    flex-direction: column;
+  }
+}
+
+
+
